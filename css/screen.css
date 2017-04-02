@@ -1,4 +1,16 @@
+html {
+  background: url("../image/background.jpeg") no-repeat center center fixed;
+  background-color: rgb(201, 172, 244);
+  background-blend-mode: multiply;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
+  background-color: rgba(235, 237, 143, 0.89);
+  opacity: 0.8;
   align-items: center;
 }
 
