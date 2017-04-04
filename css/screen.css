@@ -1,5 +1,5 @@
 html {
-  background: url("../image/background.jpeg") no-repeat center center fixed;
+  background: url("../image/background.jpg") no-repeat center center fixed;
   background-color: rgb(201, 172, 244);
   background-blend-mode: multiply;
   -webkit-background-size: cover;
@@ -33,6 +33,8 @@ body {
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .flex-item {
@@ -41,8 +43,6 @@ body {
   height: auto;
   width: auto;
   margin: 10px;
-  flex-grow: <1>;
-  flex-shrink: <1>;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -85,4 +85,9 @@ ol {
   display: inline-block;
   font-size: 20px;
   margin: 50px;
+}
+
+object {
+  width: 1000px;
+  height: 1200px;
 }
