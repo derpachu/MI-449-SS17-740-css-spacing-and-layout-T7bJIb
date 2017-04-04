@@ -12,6 +12,8 @@ body {
   background-color: rgba(235, 237, 143, 0.89);
   opacity: 0.8;
   align-items: center;
+  margin: 100px;
+  padding: 40px;
 }
 
 .content {
@@ -51,6 +53,13 @@ body {
   padding: 10px;
 }
 
+.subtitle {
+  font-size: 40px;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+  padding: 4px;
+}
+
 .parent {
   display: block;
   list-style: none;
@@ -74,6 +83,6 @@ ol {
 .listing {
   display: flex;
   display: inline-block;
-  font-size: 15px;
+  font-size: 20px;
   margin: 50px;
 }
